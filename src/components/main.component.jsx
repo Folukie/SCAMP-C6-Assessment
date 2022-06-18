@@ -30,12 +30,12 @@ const Content = ({ addToCart, number, handleDecrement, handleIncrement }) => {
           />
           <MdKeyboardArrowLeft
             size={40}
-            className="absolute border rounded-full bg-white top-1/2 left-0 cursor-pointer"
+            className="absolute border rounded-full bg-white top-1/2 left-0 cursor-pointer hidden sm:block"
             onClick={previous}
           />
           <MdKeyboardArrowRight
             size={40}
-            className="absolute border rounded-full bg-white top-1/2 right-0 cursor-pointer"
+            className="absolute border rounded-full bg-white top-1/2 right-0 cursor-pointer hidden sm:block"
             onClick={next}
           />
         </div>
